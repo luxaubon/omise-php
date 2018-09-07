@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script src="https://cdn.omise.co/card.js" ></script>
+</head>
+<style>
+.omise-checkout-button {
+  padding: 5px 10px;
+  border: 1px solid #CCC;
+  background-color: #1A53F0;
+  color: white;
+  border-radius: 4px;
+}
+</style>
+<body>
+<form name="checkoutForm" method="POST" action="testcheck.php">
+    <input type="hidden" name="description" value="Product order ฿100.25" />
+    <input type="hidden" name="amount" value="80000" />
+    <script type="text/javascript" src="https://cdn.omise.co/card.js"
+      data-key="pkey_test_5c60ff946yu07jgmups"
+      data-image="https://gmlive.com/images/logo-gmlive.png"
+      data-frame-label="Mommy Juicy"
+      data-button-label="ชำระเงิน"
+      data-submit-label="Submit"
+      data-amount="80000"
+      data-currency="thb"
+      data-type="button1"
+      >
+    </script>
+    <!--the script will render <input type="hidden" name="omiseToken"> for you automatically-->
+</form>
+</body>
+</html>
