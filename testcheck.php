@@ -29,6 +29,9 @@ print_r($chang);
 echo '</pre>';
 
 /*
+
+
+check ft 1 
 if($_REQUEST['action'] == "update_paysabuy"){
 		
 	require_once 'omise-php/lib/Omise.php';
