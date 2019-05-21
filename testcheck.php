@@ -19,7 +19,12 @@ if($chang['status'] == 'successful'){
 }
 
 echo '<pre>';
+<<<<<<< HEAD
 print_r($_REQUEST); //data
+=======
+//print_r($_REQUEST); //data
+// session
+>>>>>>> 983e7b88b033784a8126727b374d33e417216644
 echo '</pre>';
 echo '<hr>';
 echo '<pre>';
